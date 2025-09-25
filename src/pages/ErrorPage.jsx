@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useRouteError } from 'react-router'
-import Navbar from '../components/Navbar'
+import NavBar from '../components/NavBar'
 import Button from '../components/shared/Button'
 import { Helmet } from 'react-helmet-async'
 
