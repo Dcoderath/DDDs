@@ -23,14 +23,12 @@ const router = createBrowserRouter([
         index: true,
         path: '/',
         Component: Home,
-        loader: () => fetch('../events.json'),
-        hydrateFallbackElement: <LoadingFallback />,
+        loader: () => fetch('/events.json'),
       },
       {
         path: '/event-details/:id',
         element: <PrivateRoute> <EventDetails /> </PrivateRoute>,
-        loader: () => fetch('../events.json'),
-        hydrateFallbackElement: <LoadingFallback />,
+        loader: () => fetch('/events.json'),
       },
 
       {

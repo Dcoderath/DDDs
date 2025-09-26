@@ -1,0 +1,5 @@
+- [x] Update PrivateRoute.jsx to use useContext instead of 'use' hook.
+- [x] Fix loader paths in router.jsx to '/events.json'.
+- [x] Remove hydrateFallbackElement from routes in router.jsx.
+- [ ] Run npm run build to test locally.
+- [ ] Deploy to Vercel and verify no 404 and no console errors.
